@@ -1,0 +1,5 @@
+let myModel = new sap.ui.model.json.JSONModel();
+		myModel.loadData(sURL = 'service/data.json', true, false);
+		sap.ui.getCore().setModel(myModel);
+		
+		https://sapui5.hana.ondemand.com/1.120.29/#/api/sap.m.App/aggregations
